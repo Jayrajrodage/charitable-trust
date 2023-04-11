@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# CharityDAO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+CharityDAO is a decentralized autonomous organization (DAO) on the Ethereum blockchain that allows people to donate to a charity and vote on how the funds are used. The smart contract code is written in Solidity, and the web application interacts with the contract through Web3 and MetaMask.
 
-In the project directory, you can run:
+# Features
 
-### `npm start`
+Users can donate to the charity through the smart contract.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The contract keeps track of the total amount of funds raised and the number of contributors.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The contract manager can create requests for how the funds should be spent.
 
-### `npm test`
+Contributors can vote on the requests.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+When a request has received enough votes, the contract manager can release the funds to the recipient specified in the request.
 
-### `npm run build`
+# Installation
+Clone the repository
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Install dependencies with "npm install"
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Run the app with npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Usage
+Connect your MetaMask wallet to the Ropsten or Goerli test network.
 
-### `npm run eject`
+Donate to the charity by sending ether to the contract address.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Create a request if you are the contract manager.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Vote on requests if you are a contributor.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Release funds to recipients if you are the contract manager and the request has received enough votes.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Technologies Used
 
-## Learn More
+1.Solidity
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2.React.js
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3.Tailwind CSS
 
-### Code Splitting
+4.Ether.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+5.Remix.IDE
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
