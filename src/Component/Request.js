@@ -80,7 +80,7 @@ const Request = () => {
                                                 {e.noOfVoters.toString()}
                                             </span>
                                             <span class="text-black ml-10 font-bold mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                                                Target
+                                                Funds Need
                                             </span>
                                             <span class="text-black font-bold  inline-flex items-center leading-none text-sm">
                                                 {Number(e.target.toString()) / 10 ** 18} ETH {}
